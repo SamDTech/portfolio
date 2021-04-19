@@ -92,7 +92,7 @@ export const tools: Skill[] = [
     Icon: BsCircleFill,
   },
   {
-    name: "NATS Streaming",
+    name: "Skaffold",
     level: "85%",
     Icon: BsCircleFill,
   },
