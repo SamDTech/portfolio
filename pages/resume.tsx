@@ -21,7 +21,7 @@ const resume = () => {
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">Software Engineer</h5>
-            <p className="font-semibold ">TCS (2019- on)</p>
+            <p className="font-semibold ">Ithorize Limited</p>
           </div>
         </div>
       </div>
