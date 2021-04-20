@@ -2,11 +2,11 @@ import React from "react";
 import { languages, tools } from "../data";
 import Bar from "../components/Bar";
 import { motion } from "framer-motion";
-import { fadeInUp } from "../animations";
+import { fadeInUp, routeAnimation } from "../animations";
 
 const resume = () => {
   return (
-    <div className="px-6 py-2 ">
+    <motion.div variants={routeAnimation} exit='exit' initial='initial' animate='animate' className="px-6 py-2 ">
       {/* education && Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
@@ -54,7 +54,7 @@ const resume = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
