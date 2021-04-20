@@ -9,3 +9,7 @@ body{
   font-family: sans-serif;
   color: #354358
 }
+
+::-webkit-scrollbar-thumb {
+  bac
+}

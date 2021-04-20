@@ -110,6 +110,7 @@ export const tools: Skill[] = [
 
 export const projects: Project[] = [
   {
+    id: 1,
     name: "ticketing-app",
     description:
       "A ticketing and micro-services app with kubernetes, docker, skaffold, NATS, load balancers etc",
@@ -119,7 +120,7 @@ export const projects: Project[] = [
     category: ["mongo", "react", "node", "postgres"],
     key_techs: ["react", "typescript", "docker", "kubernetes", "load balancer"],
   },
-  {
+  { id: 2,
     name: "Tweeter-clone",
     description:
       "A twitter clone with node.js. Including group messages, private message and Instant Notifications.",
@@ -129,7 +130,7 @@ export const projects: Project[] = [
     category: ["mongo", "node"],
     key_techs: ["express", "mongo", "pug"],
   },
-  {
+  { id: 3,
     name: "BigShop",
     description:
       "A full ecommerce app with react and node.js. Full functionality include payment gateway, coupon, order printout, free delivery, rating system etc",
@@ -141,6 +142,7 @@ export const projects: Project[] = [
   },
 
   {
+    id:4,
     name: "micro-blog",
     description:
       "A blog microservices using node.js, react, docker and kubernetes",
@@ -151,7 +153,7 @@ export const projects: Project[] = [
     key_techs: ["react", "typescript", "docker", "kubernetes", "load balancer"],
   },
 
-  {
+  {id: 5,
     name: "javascript-framework",
     description:
       "A Javascript framework that gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface. Thanks to backbone.js for the inspiration.",
@@ -162,7 +164,7 @@ export const projects: Project[] = [
     key_techs: ["typescript"],
   },
 
-  {
+  {id: 6,
     name: "csv_reader",
     description: "An app that read any csv file, parse and analyze it",
     image_path: "/images/csv.png",
@@ -172,7 +174,7 @@ export const projects: Project[] = [
     key_techs: ["typescript"],
   },
 
-  {
+  { id: 7,
     name: "netflix-clone",
     description: "A Netflix clone with react",
     image_path: "/images/Netflix.png",
@@ -182,7 +184,7 @@ export const projects: Project[] = [
     key_techs: ["react"],
   },
 
-  {
+  { id: 8,
     name: "streams",
     description: "A react-node streaming app",
     image_path: "/images/stream.jpeg",
@@ -192,7 +194,7 @@ export const projects: Project[] = [
     key_techs: ["react"],
   },
 
-  {
+  { id: 9,
     name: "react-youtube",
     description: "A youtube-clone with react",
     image_path: "/images/youtubeClone.png",
