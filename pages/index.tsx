@@ -1,6 +1,9 @@
 import React from "react";
 import { services } from "../data";
 import ServiceCard from "../components/ServiceCard";
+import { motion } from "framer-motion";
+import { fadeInUp } from "../animations";
+
 
 const index = () => {
   return (
@@ -15,9 +18,9 @@ const index = () => {
         <div className="grid gap-6 lg:grid-cols-2">
           {services &&
             services.map((service) => (
-              <div key={service.title} className='bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1'>
+              <motion.div variants={fadeInUp} initial='initial' animate='animate' key={service.title} className='bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1'>
                 <ServiceCard service={service} />
-              </div>
+              </motion.div>
             ))}
         </div>
       </div>
