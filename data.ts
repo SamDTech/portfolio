@@ -1,6 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
-import { Data, Skill } from "./type";
+import { Data, Project, Skill } from "./type";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { BsCircleFill } from "react-icons/bs";
@@ -105,5 +105,100 @@ export const tools: Skill[] = [
     name: "Heidi SQL",
     level: "90%",
     Icon: BsCircleFill,
+  },
+];
+
+export const projects: Project[] = [
+  {
+    name: "ticketing-app",
+    description:
+      "A ticketing and micro-services app with kubernetes, docker, skaffold, NATS, load balancers etc",
+    image_path: "/images/ticketing.png",
+    deployed_url: "#",
+    github_url: "https://github.com/SamDTech/ticketing-app",
+    category: ["mongo", "react", "node", "postgres"],
+    key_techs: ["react", "typescript", "docker", "kubernetes", "load balancer"],
+  },
+  {
+    name: "Tweeter-clone",
+    description:
+      "A twitter clone with node.js. Including group messages, private message and Instant Notifications.",
+    image_path: "/images/tweeter.png",
+    deployed_url: "#",
+    github_url: "https://github.com/SamDTech/Tweeter-clone",
+    category: ["mongo", "node"],
+    key_techs: ["express", "mongo", "pug"],
+  },
+  {
+    name: "BigShop",
+    description:
+      "A full ecommerce app with react and node.js. Full functionality include payment gateway, coupon, order printout, free delivery, rating system etc",
+    image_path: "/images/shop.jpg",
+    deployed_url: "#",
+    github_url: "https://github.com/SamDTech/BigShop",
+    category: ["mongo", "node", "react"],
+    key_techs: ["react", "mongo", "express", "Ant Design UI", "bootstrap"],
+  },
+
+  {
+    name: "micro-blog",
+    description:
+      "A blog microservices using node.js, react, docker and kubernetes",
+    image_path: "/images/blog.png",
+    deployed_url: "#",
+    github_url: "https://github.com/SamDTech/micro-blog",
+    category: ["mongo", "node", "react"],
+    key_techs: ["react", "typescript", "docker", "kubernetes", "load balancer"],
+  },
+
+  {
+    name: "javascript-framework",
+    description:
+      "A Javascript framework that gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface. Thanks to backbone.js for the inspiration.",
+    image_path: "/images/framework.jpg",
+    deployed_url: "#",
+    github_url: "https://github.com/SamDTech/javascript-framework",
+    category: ["typescript"],
+    key_techs: ["typescript"],
+  },
+
+  {
+    name: "csv_reader",
+    description: "An app that read any csv file, parse and analyze it",
+    image_path: "/images/csv.png",
+    deployed_url: "#",
+    github_url: "https://github.com/SamDTech/csv_reader",
+    category: ["typescript"],
+    key_techs: ["typescript"],
+  },
+
+  {
+    name: "netflix-clone",
+    description: "A Netflix clone with react",
+    image_path: "/images/Netflix.png",
+    deployed_url: "#",
+    github_url: "https://github.com/SamDTech/netflix-react",
+    category: ["react"],
+    key_techs: ["react"],
+  },
+
+  {
+    name: "streams",
+    description: "A react-node streaming app",
+    image_path: "/images/stream.jpeg",
+    deployed_url: "#",
+    github_url: "https://github.com/SamDTech/streams",
+    category: ["react", "node"],
+    key_techs: ["react"],
+  },
+
+  {
+    name: "react-youtube",
+    description: "A youtube-clone with react",
+    image_path: "/images/youtubeClone.png",
+    deployed_url: "#",
+    github_url: "https://github.com/SamDTech/react-youtube",
+    category: ["react"],
+    key_techs: ["react"],
   },
 ];

@@ -25,7 +25,7 @@ const Sidebar = () => {
       </p>
 
       <a
-        className="flex justify-center px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full item-center"
+        className="flex justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 item-center"
         download="name"
       >
         <GiTie className="w-6 h-6" /> Download Resume
@@ -69,7 +69,7 @@ const Sidebar = () => {
       {/* Toggle Ui Button */}
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400"
+        className="w-8/12 px-5 py-2 my-2 text-white rounded-full focus:outline-none bg-gradient-to-r from-green to-blue-400"
       >
         Toggle Theme
       </button>
