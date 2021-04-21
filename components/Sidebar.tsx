@@ -19,8 +19,8 @@ const Sidebar = () => {
         src="https://avatars.githubusercontent.com/u/51648328?v=4"
         alt="image avatar"
         className="mx-auto rounded-full "
-        height="128px"
-        width="128px"
+        height="128"
+        width="128"
         layout="intrinsic"
         quality="100"
       />
