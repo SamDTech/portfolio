@@ -43,13 +43,13 @@ const Sidebar = () => {
 
       {/* TOD0 social icons */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-        <a href="">
+        <a href="https://hashnode.com/@Samdtech" aria-label="Blog">
           <AiFillChrome className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="">
+        <a href="https://github.com/samdtech" aria-label="Github">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/opeyemi-samuel-3036b9b2/" aria-label='LinkedIn'>
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
       </div>

@@ -3,12 +3,18 @@ import { services } from "../data";
 import ServiceCard from "../components/ServiceCard";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation, stagger } from "../animations";
+import Head from 'next/head'
 
 
 const index = () => {
   return (
     <motion.div variants={routeAnimation} initial='initial' animate='animate' exit='exit' className="flex flex-col flex-grow px-6 pt-1">
-      <h5 className="my-3 font-medium">
+      <Head>
+        <title>
+          Web Developer | Portfolio | SamDTech
+        </title>
+      </Head>
+      <h5 className="my-3 text-base font-medium">
         I am currently pursuing my second degree in Mathematics after having a
         degree in Computer Engineering. I have 3+ years of experience in Web
         development and I have a blog where I teach Full Stack Web Development.

@@ -3,10 +3,20 @@ import { languages, tools } from "../data";
 import Bar from "../components/Bar";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation } from "../animations";
+import Head from "next/head";
 
 const resume = () => {
   return (
-    <motion.div variants={routeAnimation} exit='exit' initial='initial' animate='animate' className="px-6 py-2 ">
+    <motion.div
+      variants={routeAnimation}
+      exit="exit"
+      initial="initial"
+      animate="animate"
+      className="px-6 py-2 "
+    >
+      <Head>
+        <title>Web Developer | Resume | SamDTech</title>
+      </Head>
       {/* education && Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
